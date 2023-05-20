@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb2ef7b045823a46b6023c36e48e22f, type: 3}
+  m_Name: Fausser
+  m_EditorClassIdentifier: 
+  Name: Fausser
+  Desc: Its a test
+  abilityShape: {fileID: 4900000, guid: 1a9043fb9e7f3224082170fe4d03ea37, type: 3}
+  effects:
+  - {fileID: 11400000, guid: 9755e96eaad6d594885e238f4d504957, type: 2}
+  range: 1
+  cooldown: 2
+  cost: 20
+  value: 40
+  abilityType: 1
+  includeOrigin: 1

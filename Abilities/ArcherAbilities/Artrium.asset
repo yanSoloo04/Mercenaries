@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb2ef7b045823a46b6023c36e48e22f, type: 3}
+  m_Name: Artrium
+  m_EditorClassIdentifier: 
+  Name: Artrium
+  Desc: Its a test
+  abilityShape: {fileID: 4900000, guid: f30cbe7258a912d48a84b0dca1125752, type: 3}
+  effects:
+  - {fileID: 11400000, guid: 4aa4bdc3f0cb8cb4cb8487e96aa9ec07, type: 2}
+  range: 10
+  cooldown: 2
+  cost: 30
+  value: 40
+  abilityType: 1
+  includeOrigin: 1
